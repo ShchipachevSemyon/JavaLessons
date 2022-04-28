@@ -28,7 +28,8 @@ public class Example12 {
                 if (currentX >= 0 && currentX < size && currentY >= 0 && currentY < size)
                     positionCount++;
             }
-            System.out.println(positionCount);
+            out.println(positionCount);
+            out.flush();
         }
     }
 }
